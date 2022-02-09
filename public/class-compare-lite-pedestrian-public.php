@@ -163,13 +163,13 @@ class Compare_Lite_Pedestrian_Public {
 							</div>
 						</template>
 					</amp-autocomplete>
-					<input hidden name="utm_source" value="<?php echo esc_html( $default_atts['utm_source'] ); ?>"><br>
+					<input hidden name="utm_source" value="<?php echo esc_attr( $default_atts['utm_source'] ); ?>"><br>
 				</div>
 				<input 
 					class="btn btn-primary main-btn" 
 					style="background-color: #f1b734;border: none;color: darkslategrey;" 
 					disabled [disabled]="!chosenPostCode_<?php echo esc_attr( $default_atts['inputId'] ); ?>"  
-					type="submit" value="<?php echo esc_html( $default_atts['button_text'] ); ?>"
+					type="submit" value="<?php echo esc_attr( $default_atts['button_text'] ); ?>"
 				>
 				<p 
 					style="font-size: 0.85rem;margin-top:0.5rem" 
