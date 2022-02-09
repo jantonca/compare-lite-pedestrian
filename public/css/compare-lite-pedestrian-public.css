@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .compare_lite_postcode_submit{
+    background: #f1b734 !important;
+    min-width: 160px;
+    width: 30%;
+    border-radius: 0;
+    font-size: 19px;
+    padding: 14px 5px;
+    border: 2px solid #f1b734 !important;
+    min-height: 57px;
+}
+.compare_lite_main_input {
+    /* position: relative; */
+    padding: 15px;
+    background: #f5f5f5;
+    /* display: inline-block; */
+    width: 400px;
+}
+.compare_lite_main_input h5.compare_lite_small_heading {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #615f63;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.compare_lite_main_input input.compare_lite_postcode_search {
+    font-size: 14px;
+    float: left;
+    background: #fff;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    padding: 20px 15px;
+    width: 100%;
+    outline: none;
+}
+.compare_lite_main_input input.compare_lite_postcode_search:focus {
+    box-shadow: 0 0 0 2px #769a2e !important;
+}
+.compare_lite_postcode_submit {
+    background: #f1b734 !important;
+     font-family: 'Poppins',sans-serif;
+    width: 40%;
+    border-radius: 0;
+    font-size: 19px;
+    padding: 15px 5px;
+    border: 2px solid #f1b734 !important;
+    float: left;
+    text-align: center;
+    min-height: auto;
+    cursor:pointer;
+    color:#333;
+    margin-top: 10px !important;
+}
+.compare_lite_main_input .compare_lite_field_note {
+    font-size: 12px;
+    color: #635d5d;
+    font-style: oblique;
+    display: block;
+    margin-top: 18px;
+    clear: both;
+}
+ul[id^="ui-id-"] {
+    background: #eee none repeat scroll 0 0;
+    padding: 5px 10px;
+    max-height: 250px;
+    overflow-y: scroll;
+    cursor: pointer;
+    list-style: none;
+    z-index: 999999 !important;
+    position: absolute !important;
+}
+ul[id^='ui-id-'] li{
+    font-family: 'Poppins',sans-serif;
+}
+ul[id^='ui-id-'] .ui-menu-item {
+    color: #1f272a;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    padding:0px 0;
+    padding-left:0px;
+}
+ul[id^='ui-id-'] .ui-menu-item-wrapper {
+
+    background: url(../../../compare-lite/assets/images/location.png) no-repeat 10px center;
+    /*background: url(https://finder.cimet.io/wp-content/plugins/EnergyCompare/assets/images/location.png) no-repeat 10px center;*/
+    padding-left: 40px;
+    color: #1f272a;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 300;
+}
+ul[id^='ui-id-'] .ui-autocomplete-term {
+    font-weight: 700;
+    color: #769a2e;
+}
