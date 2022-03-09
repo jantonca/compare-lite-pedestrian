@@ -185,7 +185,7 @@ class Compare_Lite_Pedestrian_Public {
 					</p>
 				</div>
 			<?php else: ?>
-				<div style="max-width: 400px;padding: 10px; background-color: #f5f5f5";>
+				<div class="amp-cimet-form no-amp" style="max-width: 400px;padding: 10px; background-color: #f5f5f5";>
 					<h5 style="margin-bottom: 1rem;"><?php echo esc_html( $default_atts['main_title'] ); ?></h5>
 					<a 
 						class="btn" 
