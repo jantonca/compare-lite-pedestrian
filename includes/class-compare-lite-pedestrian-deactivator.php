@@ -4,7 +4,7 @@
  * Fired during plugin deactivation
  *
  * @link       https://pedestriangroup.com.au/
- * @since      1.1.0
+ * @since      1.1.1
  *
  * @package    Compare_Lite_Pedestrian
  * @subpackage Compare_Lite_Pedestrian/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      1.1.0
+ * @since      1.1.1
  * @package    Compare_Lite_Pedestrian
  * @subpackage Compare_Lite_Pedestrian/includes
  * @author     Jose Anton <jose.anton@pedestriangroup.com.au>
@@ -27,7 +27,7 @@ class Compare_Lite_Pedestrian_Deactivator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 */
 	public static function deactivate() {
 

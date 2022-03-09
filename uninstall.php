@@ -20,7 +20,7 @@
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
  * @link       https://pedestriangroup.com.au/
- * @since      1.1.0
+ * @since      1.1.1
  *
  * @package    Compare_Lite_Pedestrian
  */

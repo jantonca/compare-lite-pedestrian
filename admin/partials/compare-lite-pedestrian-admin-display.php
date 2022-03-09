@@ -6,7 +6,7 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       https://pedestriangroup.com.au/
- * @since      1.1.0
+ * @since      1.1.1
  *
  * @package    Compare_Lite_Pedestrian
  * @subpackage Compare_Lite_Pedestrian/admin/partials

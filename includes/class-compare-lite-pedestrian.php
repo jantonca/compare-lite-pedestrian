@@ -7,7 +7,7 @@
  * public-facing side of the site and the admin area.
  *
  * @link       https://pedestriangroup.com.au/
- * @since      1.1.0
+ * @since      1.1.1
  *
  * @package    Compare_Lite_Pedestrian
  * @subpackage Compare_Lite_Pedestrian/includes
@@ -22,7 +22,7 @@
  * Also maintains the unique identifier of this plugin as well as the current
  * version of the plugin.
  *
- * @since      1.1.0
+ * @since      1.1.1
  * @package    Compare_Lite_Pedestrian
  * @subpackage Compare_Lite_Pedestrian/includes
  * @author     Jose Anton <jose.anton@pedestriangroup.com.au>
@@ -33,7 +33,7 @@ class Compare_Lite_Pedestrian {
 	 * The loader that's responsible for maintaining and registering all hooks that power
 	 * the plugin.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   protected
 	 * @var      Compare_Lite_Pedestrian_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
@@ -42,7 +42,7 @@ class Compare_Lite_Pedestrian {
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   protected
 	 * @var      string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
@@ -51,7 +51,7 @@ class Compare_Lite_Pedestrian {
 	/**
 	 * The current version of the plugin.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   protected
 	 * @var      string    $version    The current version of the plugin.
 	 */
@@ -64,13 +64,13 @@ class Compare_Lite_Pedestrian {
 	 * Load the dependencies, define the locale, and set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 */
 	public function __construct() {
 		if ( defined( 'COMPARE_LITE_PEDESTRIAN_VERSION' ) ) {
 			$this->version = COMPARE_LITE_PEDESTRIAN_VERSION;
 		} else {
-			$this->version = '1.1.0';
+			$this->version = '1.1.1';
 		}
 		$this->plugin_name = 'compare-lite-pedestrian';
 
@@ -94,7 +94,7 @@ class Compare_Lite_Pedestrian {
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   private
 	 */
 	private function load_dependencies() {
@@ -132,7 +132,7 @@ class Compare_Lite_Pedestrian {
 	 * Uses the Compare_Lite_Pedestrian_i18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   private
 	 */
 	private function set_locale() {
@@ -147,7 +147,7 @@ class Compare_Lite_Pedestrian {
 	 * Register all of the hooks related to the admin area functionality
 	 * of the plugin.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   private
 	 */
 	private function define_admin_hooks() {
@@ -163,7 +163,7 @@ class Compare_Lite_Pedestrian {
 	 * Register all of the hooks related to the public-facing functionality
 	 * of the plugin.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 * @access   private
 	 */
 	private function define_public_hooks() {
@@ -178,7 +178,7 @@ class Compare_Lite_Pedestrian {
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
 	 *
-	 * @since    1.1.0
+	 * @since    1.1.1
 	 */
 	public function run() {
 		$this->loader->run();
@@ -188,7 +188,7 @@ class Compare_Lite_Pedestrian {
 	 * The name of the plugin used to uniquely identify it within the context of
 	 * WordPress and to define internationalization functionality.
 	 *
-	 * @since     1.1.0
+	 * @since     1.1.1
 	 * @return    string    The name of the plugin.
 	 */
 	public function get_plugin_name() {
@@ -198,7 +198,7 @@ class Compare_Lite_Pedestrian {
 	/**
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
-	 * @since     1.1.0
+	 * @since     1.1.1
 	 * @return    Compare_Lite_Pedestrian_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
@@ -208,7 +208,7 @@ class Compare_Lite_Pedestrian {
 	/**
 	 * Retrieve the version number of the plugin.
 	 *
-	 * @since     1.1.0
+	 * @since     1.1.1
 	 * @return    string    The version number of the plugin.
 	 */
 	public function get_version() {

@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://pedestriangroup.com.au/
- * @since             1.1.0
+ * @since             1.1.1
  * @package           Compare_Lite_Pedestrian
  *
  * @wordpress-plugin
  * Plugin Name:       Compare Lite Pedestrian
  * Plugin URI:        https://pedestriangroup.com.au/
  * Description:       This is plugin produces a shortcode to create a form that redirects to https://www.econnex.com.au/ to compare Energy Prices, Rates & Tariffs.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Jose Anton
  * Author URI:        https://pedestriangroup.com.au/
  * License:           GPL-2.0+
@@ -32,10 +32,10 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 1.1.0 and use SemVer - https://semver.org
+ * Start at version 1.1.1 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'COMPARE_LITE_PEDESTRIAN_VERSION', '1.1.0' );
+define( 'COMPARE_LITE_PEDESTRIAN_VERSION', '1.1.1' );
 
 /**
  * The code that runs during plugin activation.
@@ -71,7 +71,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-compare-lite-pedestrian.ph
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.1.0
+ * @since    1.1.1
  */
 function run_compare_lite_pedestrian() {
 
